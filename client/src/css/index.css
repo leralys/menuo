@@ -1,0 +1,49 @@
+/* #983732 */
+
+/* default colors */
+:root {
+  --color-moveo-red: #983732;
+  --color-moveo-dark-blue: #30384b;
+  --color-moveo-light-blue: #414d67;
+  --color-moveo-black: #181818;
+  --color-moveo-white: #f0efef;
+  --font-main: 'Montserrat', sans-serif;
+}
+
+/* css resets */
+html {
+  overflow-x: hidden;
+}
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* default font and color */
+body {
+  font-family: var(--font-main);
+  color: var(--color-moveo-dark-blue);
+  font-size: 16px;
+}
+
+/* default ul styles */
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  color: inherit;
+}
+/* default a styles */
+a {
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
+}
+
+/* hide default datepicker icon */
+[data-testid='CalendarIcon'] {
+  display: none !important;
+}
