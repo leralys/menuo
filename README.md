@@ -1,4 +1,5 @@
 # menuo
 App for the chef to manage lunches at the company
 
-![Menuo](https://user-images.githubusercontent.com/69239819/184298330-765f20d3-9a43-4da5-be19-7f01c678856b.png)
+
+![menuo](https://user-images.githubusercontent.com/69239819/184316106-f4f56150-41ae-4847-bd88-3055ba01577e.png)
